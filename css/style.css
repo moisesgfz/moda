@@ -1,0 +1,232 @@
+/* Estilos generales */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+/* Estilos del navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Estilos de la clase jumbotron */
+.jumbotron {
+  background-image: url('../img/fondo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #020202;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.jumbotron a.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 30px;
+}
+
+
+/* Estilos de secciones */
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Estilos de la sección de productos */
+#productos .card {
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#productos .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#productos .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#productos .card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos de la sección de testimonios */
+/* Estilos de la sección de testimonios */
+#testimonios {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+#testimonios h2 {
+  color: #333;
+  margin-bottom: 60px;
+}
+
+#testimonios .carousel-indicators button {
+  background-color: #ccc;
+  border-color: transparent;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+#testimonios .carousel-indicators button.active {
+  background-color: #007bff;
+}
+
+#testimonios .carousel-control-prev,
+#testimonios .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+}
+
+#testimonios .carousel-control-prev-icon,
+#testimonios .carousel-control-next-icon {
+  font-size: 1.5rem;
+}
+
+#testimonios .card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+#testimonios .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#testimonios .card-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
+#testimonios .card-text {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #49191f;
+  border-top: 1px solid #3988d6;
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #107fe0;
+  margin-bottom: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767.98px) {
+  section {
+    padding: 40px 0;
+  }
+
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #productos .card {
+    margin-bottom: 30px;
+  }
+}
+
+/* Estilos responsivos */
+@media (max-width: 767.98px) {
+  .jumbotron {
+    padding: 80px 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .jumbotron a.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
